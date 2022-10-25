@@ -830,6 +830,7 @@
   color: #fa0368;
 }
 .banner-df {
+  margin-top: 25px;
   height: 100vh;
   background-size: cover;
   background-position: 0% 100%;
@@ -858,7 +859,7 @@
   }
 }
 .banner-df .banner .banner-lc .btn-defult {
-  margin-top: 40px;
+  margin-top: 30px;
   border-radius: 50px;
   box-shadow: 0 4px 15px 1px rgba(253, 61, 107, 0.5);
 }
@@ -1336,10 +1337,18 @@
   z-index: 1;
   top: 10%;
   right: 0;
+  height: 85vh;
+  max-width: 50vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 @media (max-width: 767px) {
   .banner-shape {
     top: 60%;
+    height: 100%;
+    max-width: 100%;
+    display: block;
   }
 }
 @media (min-width: 768px) and (max-width: 1199px) {
