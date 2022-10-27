@@ -1290,6 +1290,9 @@
   opacity: 0.4;
 }
 /* events */
+.themename {
+  color: #fa0368;
+}
 .pastevents{
   background-color: #fff;
   color: black;
