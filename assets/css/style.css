@@ -2,6 +2,30 @@
 @import "https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap";
 @import "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+/* people */
+.underline {
+  height: 3px;
+  background-color: #fa0368;
+}
+.active-people {
+  position: relative;
+}
+
+
+.badge {
+  position: absolute;
+  right: 11px;
+  top: 10px;
+  padding: 5px;
+  background-color: #fa0368;
+}
+.people-thumb{
+  /* height: 300px; */
+  width: 300px;
+}
+
 .header-logo a {
   display: inline-block;
 }
@@ -22,6 +46,7 @@
   padding: 10px 0;
 }
 .primary-menu {
+  box-shadow: 0px 1px 10px;
   z-index: 11;
   animation-name: fadeInDown;
   animation-duration: 0.1s;
@@ -2810,6 +2835,7 @@
   .speaker-item
   .speaker-item-inner
   .item-content {
+  text-align: center;
   padding: 20px 10px;
 }
 .event-schedule.style-4
@@ -7908,6 +7934,8 @@
     .event-sidebar-widget
     .gmap-section.style-3 {
     padding-top: 60px;
+    padding-bottom: 0px;
+
   }
 }
 .event-with-sidebar-section
@@ -9424,6 +9452,28 @@ button:hover {
 }
 .footer-section .footer-bottom .footer-social .social-media li a:hover {
   color: #fff;
+}
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .activemenu, .accordion:hover {
+  background-color: #ccc;
+} */
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
 }
 .mobile-header {
   padding: 10px 15px;
