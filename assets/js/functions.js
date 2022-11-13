@@ -288,8 +288,8 @@ function loadTab() {
   visible = !visible;
   document.getElementById("showmore").classList.toggle("invisible");
   if (visible) {
-    document.getElementById("show-text-btn").innerHTML = "Past Events";
+    document.getElementById("show-text-btn").innerHTML = "Show More";
   } else {
-    document.getElementById("show-text-btn").innerHTML = "Show Less";
+    document.getElementById("show-text-btn").innerHTML = "Hide";
   }
 }
