@@ -8257,9 +8257,15 @@
 .padding-tb {
   padding: 60px 0;
 }
+.size {
+  padding: 10px;
+}
 @media (min-width: 992px) {
   .padding-tb {
     padding: 100px 0;
+  }
+  .size {
+    padding: 0px 50px;
   }
 }
 @media (min-width: 768px) {
@@ -8651,6 +8657,11 @@ button:hover {
     -webkit-transform: scale(1.2, 1.2);
     transform: scale(1.2, 1.2);
     opacity: 0.1;
+  }
+}
+@media (min-width:1200px) {
+  .merchcontain {
+    max-width: 1250px;
   }
 }
 @media (min-width: 1400px) {

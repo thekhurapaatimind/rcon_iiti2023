@@ -70,7 +70,7 @@
       autoplay: { delay: 2500, disableOnInteraction: false },
       loop: true,
     });
-    var nextyear = "01/19/2023 23:59:00";
+    var nextyear = "01/15/2023 23:59:00";
     $(".bcr_countdown").countdown({
       date: nextyear,
       offset: +2,
