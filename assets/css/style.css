@@ -3348,6 +3348,9 @@
   width: calc(100% / 1);
 }
 @media (min-width: 500px) {
+  .event-speaker.style-1 .speaker-event .speaker-wrapper #chief {
+    width: calc(100% / 1.5);
+  }
   .event-speaker.style-1 .speaker-event .speaker-wrapper .speaker-item {
     width: calc(100% / 2);
   }
@@ -3358,6 +3361,9 @@
   }
 }
 @media (min-width: 1200px) {
+  .event-speaker.style-1 .speaker-event .speaker-wrapper .speaker-item .chief {
+    width: calc(100% / 1.5);
+  }
   .event-speaker.style-1 .speaker-event .speaker-wrapper .speaker-item {
     width: calc(100% / 2);
   }
