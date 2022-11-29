@@ -1340,6 +1340,10 @@
   margin-bottom: 40px;
   margin-top: 20px;
 }
+.pastevents:hover {
+  color: #fff;
+  background-color: var(--primary-color);
+}
 .event-section {
   padding-top: 0;
   position: relative;
@@ -3395,22 +3399,21 @@
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  padding-top: 35px;
+  padding-top: 0px;
   padding-bottom: 15px;
 }
 .event-speaker.style-1
   .speaker-event
   .speaker-wrapper
   .speaker-item
-  .speaker-content
-  .speaker-top
   h2 {
+  padding-top: 25px;
   margin: 0;
   border-left: 3px dashed var(--primary-color);
   padding-left: 5px;
   color: #e8e8ea;
 }
-.event-speaker.style-1
+/* .event-speaker.style-1
   .speaker-event
   .speaker-wrapper
   .speaker-item
@@ -3418,7 +3421,7 @@
   .speaker-top
   .speaker-info {
   padding-left: 20px;
-}
+} */
 .event-speaker.style-1
   .speaker-event
   .speaker-wrapper
@@ -3502,10 +3505,17 @@
   .speaker-event
   .speaker-wrapper
   .speaker-item
+  .speaker-content {
+  border-bottom: 3px solid var(--primary-color);
+  padding: 20px;
+  }
+.event-speaker.style-1
+  .speaker-event
+  .speaker-wrapper
+  .speaker-item
   .speaker-content
   ul {
   margin: 0;
-  border-bottom: 3px solid var(--primary-color);
   border-radius: 70px 70px 0 0;
 }
 .event-speaker.style-1
@@ -3536,8 +3546,8 @@
   ul
   li
   .speaker-icon {
-  padding: 15px 0;
-  width: 55px;
+  padding: 15px 5px;
+  /* width: 55px; */
   font-size: 25px;
   text-align: center;
 }
