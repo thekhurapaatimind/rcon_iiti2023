@@ -81,9 +81,9 @@
   .ih-item.circle.effect1 .spinner {
     width: 230px;
     height: 230px;
-    border: 10px solid #ecab18;
-    border-right-color: #1ad280;
-    border-bottom-color: #1ad280;
+    border: 10px solid #fb73ac;
+    border-right-color: #fa038f;
+    border-bottom-color: #fa038f;
     border-radius: 50%;
     -webkit-transition: all 0.8s ease-in-out;
     -moz-transition: all 0.8s ease-in-out;
