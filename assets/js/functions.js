@@ -70,6 +70,29 @@
       autoplay: { delay: 2500, disableOnInteraction: false },
       loop: true,
     });
+    var swiper = new Swiper(".coverfloww", {
+      effect: "coverflow",
+      slidesPerView: 2,
+      grabCursor: true,
+      centeredSlides: true,
+      loop: true,
+      autoplay: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
     var nextyear = "01/15/2023 23:59:00";
     $(".bcr_countdown").countdown({
       date: nextyear,

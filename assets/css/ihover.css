@@ -122,13 +122,14 @@
     text-transform: uppercase;
     position: relative;
     letter-spacing: 2px;
-    font-size: 22px;
+    font-size: 12px;
     margin: 0 30px;
     padding: 55px 0 0 0;
     height: 110px;
     text-shadow: 0 0 1px white, 0 1px 2px rgba(0, 0, 0, 0.3);
   }
   .ih-item.circle.effect1 .info p {
+    line-height: normal;
     color: #bbb;
     padding: 10px 5px;
     font-style: italic;
