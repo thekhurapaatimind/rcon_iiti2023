@@ -1352,12 +1352,14 @@
 }
 .event-info {
   text-align: center;
-  height: 250px;
+  height: 230px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 0 20px;
+  justify-content: space-around;
+  padding: 10px 20px;
+  /* padding-bottom: 20px; */
+  /* padding-top: 10px; */
 }
 .themename {
   color: var(--primary-color);
