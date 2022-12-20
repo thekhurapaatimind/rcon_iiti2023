@@ -1342,6 +1342,14 @@
   border-radius: 5px;
   box-shadow: -4px -3px 30px 10px rgb(175 175 175 / 35%);
 }
+.tabcontentcard {
+  display: none;
+  box-shadow: 0 0 28px 5px rgb(0 0 0 / 10%); 
+  border:0;
+}
+.tabcontentcard.active {
+  display: flex;
+}
 /* events */
 .coverfloww {
   width: 100%;
