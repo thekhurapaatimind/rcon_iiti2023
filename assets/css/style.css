@@ -1327,6 +1327,21 @@
   transform: translateY(-50%);
   opacity: 0.4;
 }
+
+/* Sponsor Page */
+.amount-button {
+  background: var(--primary-color);
+  width: 200px;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: -4px -3px 30px 10px rgb(175 175 175 / 35%);
+}
 /* events */
 .coverfloww {
   width: 100%;
