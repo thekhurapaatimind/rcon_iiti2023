@@ -70,7 +70,30 @@
       autoplay: { delay: 2500, disableOnInteraction: false },
       loop: true,
     });
-    var nextyear = "01/19/2023 23:59:00";
+    var swiper = new Swiper(".coverfloww", {
+      effect: "coverflow",
+      slidesPerView: 2,
+      grabCursor: true,
+      centeredSlides: true,
+      loop: true,
+      autoplay: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 30,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+    var nextyear = "01/10/2023 23:59:00";
     $(".bcr_countdown").countdown({
       date: nextyear,
       offset: +2,
@@ -280,6 +303,19 @@ function openTab(evt, tabName) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+function openTab2(evt, tabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontentcard");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(tabName).style.display = "flex";
   evt.currentTarget.className += " active";
 }
 
